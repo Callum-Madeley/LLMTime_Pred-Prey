@@ -1,0 +1,11 @@
+code for M2 report:
+
+run_model_LoRA.ipynb - loads qwen model with LoRA implementation, trains with specified parameters, and evaluates model performance
+
+FLOPS_calculator.ipynb - function for calculating number of FLOPS for a given training run
+
+src/preprocessor.py - loading and preprocessing of Lotka-Volterra dataset for input to Qwen model
+
+qwen.py - load Qwen2.5-Instruct model
+
+lokta_volterra_data.h5 - dataset containing 1000 predator/prey trajectories
